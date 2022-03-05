@@ -7,70 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		642834CD27C3F1D300492E8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642834CC27C3F1D300492E8C /* AppDelegate.swift */; };
-		642834CF27C3F1D300492E8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642834CE27C3F1D300492E8C /* SceneDelegate.swift */; };
-		642834D127C3F1D300492E8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642834D027C3F1D300492E8C /* ViewController.swift */; };
-		642834D427C3F1D300492E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642834D227C3F1D300492E8C /* Main.storyboard */; };
-		642834D627C3F1D900492E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642834D527C3F1D900492E8C /* Assets.xcassets */; };
-		642834D927C3F1D900492E8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642834D727C3F1D900492E8C /* LaunchScreen.storyboard */; };
-		642834E427C3F1DA00492E8C /* TasarimCalismasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642834E327C3F1DA00492E8C /* TasarimCalismasiTests.swift */; };
-		642834EE27C3F1DA00492E8C /* TasarimCalismasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642834ED27C3F1DA00492E8C /* TasarimCalismasiUITests.swift */; };
-		642834F027C3F1DA00492E8C /* TasarimCalismasiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642834EF27C3F1DA00492E8C /* TasarimCalismasiUITestsLaunchTests.swift */; };
-		64FE9CBB27C40B250084DF52 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 642834FD27C4088500492E8C /* Pacifico-Regular.ttf */; };
+		646815F927D3B37D000FD482 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646815F827D3B37D000FD482 /* AppDelegate.swift */; };
+		646815FB27D3B37D000FD482 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646815FA27D3B37D000FD482 /* SceneDelegate.swift */; };
+		646815FD27D3B37D000FD482 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646815FC27D3B37D000FD482 /* ViewController.swift */; };
+		6468160027D3B37D000FD482 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646815FE27D3B37D000FD482 /* Main.storyboard */; };
+		6468160227D3B385000FD482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6468160127D3B385000FD482 /* Assets.xcassets */; };
+		6468160527D3B385000FD482 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6468160327D3B385000FD482 /* LaunchScreen.storyboard */; };
+		6468161027D3B386000FD482 /* DetayliTableViewKullanimiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468160F27D3B386000FD482 /* DetayliTableViewKullanimiTests.swift */; };
+		6468161A27D3B386000FD482 /* DetayliTableViewKullanimiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468161927D3B386000FD482 /* DetayliTableViewKullanimiUITests.swift */; };
+		6468161C27D3B386000FD482 /* DetayliTableViewKullanimiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6468161B27D3B386000FD482 /* DetayliTableViewKullanimiUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		642834E027C3F1DA00492E8C /* PBXContainerItemProxy */ = {
+		6468160C27D3B386000FD482 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 642834C127C3F1D200492E8C /* Project object */;
+			containerPortal = 646815ED27D3B37C000FD482 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 642834C827C3F1D200492E8C;
-			remoteInfo = TasarimCalismasi;
+			remoteGlobalIDString = 646815F427D3B37C000FD482;
+			remoteInfo = DetayliTableViewKullanimi;
 		};
-		642834EA27C3F1DA00492E8C /* PBXContainerItemProxy */ = {
+		6468161627D3B386000FD482 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 642834C127C3F1D200492E8C /* Project object */;
+			containerPortal = 646815ED27D3B37C000FD482 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 642834C827C3F1D200492E8C;
-			remoteInfo = TasarimCalismasi;
+			remoteGlobalIDString = 646815F427D3B37C000FD482;
+			remoteInfo = DetayliTableViewKullanimi;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		642834C927C3F1D200492E8C /* TasarimCalismasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasarimCalismasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		642834CC27C3F1D300492E8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		642834CE27C3F1D300492E8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		642834D027C3F1D300492E8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		642834D327C3F1D300492E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		642834D527C3F1D900492E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		642834D827C3F1D900492E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		642834DA27C3F1D900492E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		642834DF27C3F1DA00492E8C /* TasarimCalismasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasarimCalismasiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		642834E327C3F1DA00492E8C /* TasarimCalismasiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasarimCalismasiTests.swift; sourceTree = "<group>"; };
-		642834E927C3F1DA00492E8C /* TasarimCalismasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasarimCalismasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		642834ED27C3F1DA00492E8C /* TasarimCalismasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasarimCalismasiUITests.swift; sourceTree = "<group>"; };
-		642834EF27C3F1DA00492E8C /* TasarimCalismasiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasarimCalismasiUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		642834FD27C4088500492E8C /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
-		64433D7327C6A4DF0073DC50 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
-		64433D7427C6A4E00073DC50 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		646815F527D3B37D000FD482 /* DetayliTableViewKullanimi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DetayliTableViewKullanimi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		646815F827D3B37D000FD482 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		646815FA27D3B37D000FD482 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		646815FC27D3B37D000FD482 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		646815FF27D3B37D000FD482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6468160127D3B385000FD482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6468160427D3B385000FD482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6468160627D3B385000FD482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6468160B27D3B386000FD482 /* DetayliTableViewKullanimiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DetayliTableViewKullanimiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6468160F27D3B386000FD482 /* DetayliTableViewKullanimiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayliTableViewKullanimiTests.swift; sourceTree = "<group>"; };
+		6468161527D3B386000FD482 /* DetayliTableViewKullanimiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DetayliTableViewKullanimiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6468161927D3B386000FD482 /* DetayliTableViewKullanimiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayliTableViewKullanimiUITests.swift; sourceTree = "<group>"; };
+		6468161B27D3B386000FD482 /* DetayliTableViewKullanimiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayliTableViewKullanimiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		642834C627C3F1D200492E8C /* Frameworks */ = {
+		646815F227D3B37C000FD482 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		642834DC27C3F1DA00492E8C /* Frameworks */ = {
+		6468160827D3B386000FD482 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		642834E627C3F1DA00492E8C /* Frameworks */ = {
+		6468161227D3B386000FD482 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,186 +76,175 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		642834C027C3F1D200492E8C = {
+		646815EC27D3B37C000FD482 = {
 			isa = PBXGroup;
 			children = (
-				642834CB27C3F1D200492E8C /* TasarimCalismasi */,
-				642834E227C3F1DA00492E8C /* TasarimCalismasiTests */,
-				642834EC27C3F1DA00492E8C /* TasarimCalismasiUITests */,
-				642834CA27C3F1D200492E8C /* Products */,
+				646815F727D3B37D000FD482 /* DetayliTableViewKullanimi */,
+				6468160E27D3B386000FD482 /* DetayliTableViewKullanimiTests */,
+				6468161827D3B386000FD482 /* DetayliTableViewKullanimiUITests */,
+				646815F627D3B37D000FD482 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		642834CA27C3F1D200492E8C /* Products */ = {
+		646815F627D3B37D000FD482 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				642834C927C3F1D200492E8C /* TasarimCalismasi.app */,
-				642834DF27C3F1DA00492E8C /* TasarimCalismasiTests.xctest */,
-				642834E927C3F1DA00492E8C /* TasarimCalismasiUITests.xctest */,
+				646815F527D3B37D000FD482 /* DetayliTableViewKullanimi.app */,
+				6468160B27D3B386000FD482 /* DetayliTableViewKullanimiTests.xctest */,
+				6468161527D3B386000FD482 /* DetayliTableViewKullanimiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		642834CB27C3F1D200492E8C /* TasarimCalismasi */ = {
+		646815F727D3B37D000FD482 /* DetayliTableViewKullanimi */ = {
 			isa = PBXGroup;
 			children = (
-				642834CC27C3F1D300492E8C /* AppDelegate.swift */,
-				642834CE27C3F1D300492E8C /* SceneDelegate.swift */,
-				642834D027C3F1D300492E8C /* ViewController.swift */,
-				642834FC27C4081B00492E8C /* Fonts */,
-				642834D227C3F1D300492E8C /* Main.storyboard */,
-				642834D527C3F1D900492E8C /* Assets.xcassets */,
-				642834D727C3F1D900492E8C /* LaunchScreen.storyboard */,
-				642834DA27C3F1D900492E8C /* Info.plist */,
+				646815F827D3B37D000FD482 /* AppDelegate.swift */,
+				646815FA27D3B37D000FD482 /* SceneDelegate.swift */,
+				646815FC27D3B37D000FD482 /* ViewController.swift */,
+				646815FE27D3B37D000FD482 /* Main.storyboard */,
+				6468160127D3B385000FD482 /* Assets.xcassets */,
+				6468160327D3B385000FD482 /* LaunchScreen.storyboard */,
+				6468160627D3B385000FD482 /* Info.plist */,
 			);
-			path = TasarimCalismasi;
+			path = DetayliTableViewKullanimi;
 			sourceTree = "<group>";
 		};
-		642834E227C3F1DA00492E8C /* TasarimCalismasiTests */ = {
+		6468160E27D3B386000FD482 /* DetayliTableViewKullanimiTests */ = {
 			isa = PBXGroup;
 			children = (
-				642834E327C3F1DA00492E8C /* TasarimCalismasiTests.swift */,
+				6468160F27D3B386000FD482 /* DetayliTableViewKullanimiTests.swift */,
 			);
-			path = TasarimCalismasiTests;
+			path = DetayliTableViewKullanimiTests;
 			sourceTree = "<group>";
 		};
-		642834EC27C3F1DA00492E8C /* TasarimCalismasiUITests */ = {
+		6468161827D3B386000FD482 /* DetayliTableViewKullanimiUITests */ = {
 			isa = PBXGroup;
 			children = (
-				642834ED27C3F1DA00492E8C /* TasarimCalismasiUITests.swift */,
-				642834EF27C3F1DA00492E8C /* TasarimCalismasiUITestsLaunchTests.swift */,
+				6468161927D3B386000FD482 /* DetayliTableViewKullanimiUITests.swift */,
+				6468161B27D3B386000FD482 /* DetayliTableViewKullanimiUITestsLaunchTests.swift */,
 			);
-			path = TasarimCalismasiUITests;
-			sourceTree = "<group>";
-		};
-		642834FC27C4081B00492E8C /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				642834FD27C4088500492E8C /* Pacifico-Regular.ttf */,
-			);
-			path = Fonts;
+			path = DetayliTableViewKullanimiUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		642834C827C3F1D200492E8C /* TasarimCalismasi */ = {
+		646815F427D3B37C000FD482 /* DetayliTableViewKullanimi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 642834F327C3F1DA00492E8C /* Build configuration list for PBXNativeTarget "TasarimCalismasi" */;
+			buildConfigurationList = 6468161F27D3B386000FD482 /* Build configuration list for PBXNativeTarget "DetayliTableViewKullanimi" */;
 			buildPhases = (
-				642834C527C3F1D200492E8C /* Sources */,
-				642834C627C3F1D200492E8C /* Frameworks */,
-				642834C727C3F1D200492E8C /* Resources */,
+				646815F127D3B37C000FD482 /* Sources */,
+				646815F227D3B37C000FD482 /* Frameworks */,
+				646815F327D3B37C000FD482 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TasarimCalismasi;
-			productName = TasarimCalismasi;
-			productReference = 642834C927C3F1D200492E8C /* TasarimCalismasi.app */;
+			name = DetayliTableViewKullanimi;
+			productName = DetayliTableViewKullanimi;
+			productReference = 646815F527D3B37D000FD482 /* DetayliTableViewKullanimi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		642834DE27C3F1DA00492E8C /* TasarimCalismasiTests */ = {
+		6468160A27D3B386000FD482 /* DetayliTableViewKullanimiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 642834F627C3F1DA00492E8C /* Build configuration list for PBXNativeTarget "TasarimCalismasiTests" */;
+			buildConfigurationList = 6468162227D3B386000FD482 /* Build configuration list for PBXNativeTarget "DetayliTableViewKullanimiTests" */;
 			buildPhases = (
-				642834DB27C3F1DA00492E8C /* Sources */,
-				642834DC27C3F1DA00492E8C /* Frameworks */,
-				642834DD27C3F1DA00492E8C /* Resources */,
+				6468160727D3B386000FD482 /* Sources */,
+				6468160827D3B386000FD482 /* Frameworks */,
+				6468160927D3B386000FD482 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				642834E127C3F1DA00492E8C /* PBXTargetDependency */,
+				6468160D27D3B386000FD482 /* PBXTargetDependency */,
 			);
-			name = TasarimCalismasiTests;
-			productName = TasarimCalismasiTests;
-			productReference = 642834DF27C3F1DA00492E8C /* TasarimCalismasiTests.xctest */;
+			name = DetayliTableViewKullanimiTests;
+			productName = DetayliTableViewKullanimiTests;
+			productReference = 6468160B27D3B386000FD482 /* DetayliTableViewKullanimiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		642834E827C3F1DA00492E8C /* TasarimCalismasiUITests */ = {
+		6468161427D3B386000FD482 /* DetayliTableViewKullanimiUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 642834F927C3F1DA00492E8C /* Build configuration list for PBXNativeTarget "TasarimCalismasiUITests" */;
+			buildConfigurationList = 6468162527D3B386000FD482 /* Build configuration list for PBXNativeTarget "DetayliTableViewKullanimiUITests" */;
 			buildPhases = (
-				642834E527C3F1DA00492E8C /* Sources */,
-				642834E627C3F1DA00492E8C /* Frameworks */,
-				642834E727C3F1DA00492E8C /* Resources */,
+				6468161127D3B386000FD482 /* Sources */,
+				6468161227D3B386000FD482 /* Frameworks */,
+				6468161327D3B386000FD482 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				642834EB27C3F1DA00492E8C /* PBXTargetDependency */,
+				6468161727D3B386000FD482 /* PBXTargetDependency */,
 			);
-			name = TasarimCalismasiUITests;
-			productName = TasarimCalismasiUITests;
-			productReference = 642834E927C3F1DA00492E8C /* TasarimCalismasiUITests.xctest */;
+			name = DetayliTableViewKullanimiUITests;
+			productName = DetayliTableViewKullanimiUITests;
+			productReference = 6468161527D3B386000FD482 /* DetayliTableViewKullanimiUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		642834C127C3F1D200492E8C /* Project object */ = {
+		646815ED27D3B37C000FD482 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					642834C827C3F1D200492E8C = {
+					646815F427D3B37C000FD482 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					642834DE27C3F1DA00492E8C = {
+					6468160A27D3B386000FD482 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 642834C827C3F1D200492E8C;
+						TestTargetID = 646815F427D3B37C000FD482;
 					};
-					642834E827C3F1DA00492E8C = {
+					6468161427D3B386000FD482 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 642834C827C3F1D200492E8C;
+						TestTargetID = 646815F427D3B37C000FD482;
 					};
 				};
 			};
-			buildConfigurationList = 642834C427C3F1D200492E8C /* Build configuration list for PBXProject "TasarimCalismasi" */;
+			buildConfigurationList = 646815F027D3B37C000FD482 /* Build configuration list for PBXProject "DetayliTableViewKullanimi" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
-				tr,
 			);
-			mainGroup = 642834C027C3F1D200492E8C;
-			productRefGroup = 642834CA27C3F1D200492E8C /* Products */;
+			mainGroup = 646815EC27D3B37C000FD482;
+			productRefGroup = 646815F627D3B37D000FD482 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				642834C827C3F1D200492E8C /* TasarimCalismasi */,
-				642834DE27C3F1DA00492E8C /* TasarimCalismasiTests */,
-				642834E827C3F1DA00492E8C /* TasarimCalismasiUITests */,
+				646815F427D3B37C000FD482 /* DetayliTableViewKullanimi */,
+				6468160A27D3B386000FD482 /* DetayliTableViewKullanimiTests */,
+				6468161427D3B386000FD482 /* DetayliTableViewKullanimiUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		642834C727C3F1D200492E8C /* Resources */ = {
+		646815F327D3B37C000FD482 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				642834D927C3F1D900492E8C /* LaunchScreen.storyboard in Resources */,
-				64FE9CBB27C40B250084DF52 /* Pacifico-Regular.ttf in Resources */,
-				642834D627C3F1D900492E8C /* Assets.xcassets in Resources */,
-				642834D427C3F1D300492E8C /* Main.storyboard in Resources */,
+				6468160527D3B385000FD482 /* LaunchScreen.storyboard in Resources */,
+				6468160227D3B385000FD482 /* Assets.xcassets in Resources */,
+				6468160027D3B37D000FD482 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		642834DD27C3F1DA00492E8C /* Resources */ = {
+		6468160927D3B386000FD482 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		642834E727C3F1DA00492E8C /* Resources */ = {
+		6468161327D3B386000FD482 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,63 +254,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		642834C527C3F1D200492E8C /* Sources */ = {
+		646815F127D3B37C000FD482 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				642834D127C3F1D300492E8C /* ViewController.swift in Sources */,
-				642834CD27C3F1D300492E8C /* AppDelegate.swift in Sources */,
-				642834CF27C3F1D300492E8C /* SceneDelegate.swift in Sources */,
+				646815FD27D3B37D000FD482 /* ViewController.swift in Sources */,
+				646815F927D3B37D000FD482 /* AppDelegate.swift in Sources */,
+				646815FB27D3B37D000FD482 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		642834DB27C3F1DA00492E8C /* Sources */ = {
+		6468160727D3B386000FD482 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				642834E427C3F1DA00492E8C /* TasarimCalismasiTests.swift in Sources */,
+				6468161027D3B386000FD482 /* DetayliTableViewKullanimiTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		642834E527C3F1DA00492E8C /* Sources */ = {
+		6468161127D3B386000FD482 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				642834EE27C3F1DA00492E8C /* TasarimCalismasiUITests.swift in Sources */,
-				642834F027C3F1DA00492E8C /* TasarimCalismasiUITestsLaunchTests.swift in Sources */,
+				6468161C27D3B386000FD482 /* DetayliTableViewKullanimiUITestsLaunchTests.swift in Sources */,
+				6468161A27D3B386000FD482 /* DetayliTableViewKullanimiUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		642834E127C3F1DA00492E8C /* PBXTargetDependency */ = {
+		6468160D27D3B386000FD482 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 642834C827C3F1D200492E8C /* TasarimCalismasi */;
-			targetProxy = 642834E027C3F1DA00492E8C /* PBXContainerItemProxy */;
+			target = 646815F427D3B37C000FD482 /* DetayliTableViewKullanimi */;
+			targetProxy = 6468160C27D3B386000FD482 /* PBXContainerItemProxy */;
 		};
-		642834EB27C3F1DA00492E8C /* PBXTargetDependency */ = {
+		6468161727D3B386000FD482 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 642834C827C3F1D200492E8C /* TasarimCalismasi */;
-			targetProxy = 642834EA27C3F1DA00492E8C /* PBXContainerItemProxy */;
+			target = 646815F427D3B37C000FD482 /* DetayliTableViewKullanimi */;
+			targetProxy = 6468161627D3B386000FD482 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		642834D227C3F1D300492E8C /* Main.storyboard */ = {
+		646815FE27D3B37D000FD482 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				642834D327C3F1D300492E8C /* Base */,
-				64433D7327C6A4DF0073DC50 /* tr */,
+				646815FF27D3B37D000FD482 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		642834D727C3F1D900492E8C /* LaunchScreen.storyboard */ = {
+		6468160327D3B385000FD482 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				642834D827C3F1D900492E8C /* Base */,
-				64433D7427C6A4E00073DC50 /* tr */,
+				6468160427D3B385000FD482 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -333,11 +316,10 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		642834F127C3F1DA00492E8C /* Debug */ = {
+		6468161D27D3B386000FD482 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -395,11 +377,10 @@
 			};
 			name = Debug;
 		};
-		642834F227C3F1DA00492E8C /* Release */ = {
+		6468161E27D3B386000FD482 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -451,7 +432,7 @@
 			};
 			name = Release;
 		};
-		642834F427C3F1DA00492E8C /* Debug */ = {
+		6468162027D3B386000FD482 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -460,7 +441,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3FG7TQNGBP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TasarimCalismasi/Info.plist;
+				INFOPLIST_FILE = DetayliTableViewKullanimi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -471,7 +452,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.TasarimCalismasi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.DetayliTableViewKullanimi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -479,7 +460,7 @@
 			};
 			name = Debug;
 		};
-		642834F527C3F1DA00492E8C /* Release */ = {
+		6468162127D3B386000FD482 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -488,7 +469,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3FG7TQNGBP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TasarimCalismasi/Info.plist;
+				INFOPLIST_FILE = DetayliTableViewKullanimi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -499,7 +480,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.TasarimCalismasi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.DetayliTableViewKullanimi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -507,7 +488,7 @@
 			};
 			name = Release;
 		};
-		642834F727C3F1DA00492E8C /* Debug */ = {
+		6468162327D3B386000FD482 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -518,16 +499,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.TasarimCalismasiTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.DetayliTableViewKullanimiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasarimCalismasi.app/TasarimCalismasi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DetayliTableViewKullanimi.app/DetayliTableViewKullanimi";
 			};
 			name = Debug;
 		};
-		642834F827C3F1DA00492E8C /* Release */ = {
+		6468162427D3B386000FD482 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -538,16 +519,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.TasarimCalismasiTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.DetayliTableViewKullanimiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasarimCalismasi.app/TasarimCalismasi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DetayliTableViewKullanimi.app/DetayliTableViewKullanimi";
 			};
 			name = Release;
 		};
-		642834FA27C3F1DA00492E8C /* Debug */ = {
+		6468162627D3B386000FD482 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -556,16 +537,16 @@
 				DEVELOPMENT_TEAM = 3FG7TQNGBP;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.TasarimCalismasiUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.DetayliTableViewKullanimiUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TasarimCalismasi;
+				TEST_TARGET_NAME = DetayliTableViewKullanimi;
 			};
 			name = Debug;
 		};
-		642834FB27C3F1DA00492E8C /* Release */ = {
+		6468162727D3B386000FD482 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -574,55 +555,55 @@
 				DEVELOPMENT_TEAM = 3FG7TQNGBP;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.TasarimCalismasiUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.DetayliTableViewKullanimiUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TasarimCalismasi;
+				TEST_TARGET_NAME = DetayliTableViewKullanimi;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		642834C427C3F1D200492E8C /* Build configuration list for PBXProject "TasarimCalismasi" */ = {
+		646815F027D3B37C000FD482 /* Build configuration list for PBXProject "DetayliTableViewKullanimi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				642834F127C3F1DA00492E8C /* Debug */,
-				642834F227C3F1DA00492E8C /* Release */,
+				6468161D27D3B386000FD482 /* Debug */,
+				6468161E27D3B386000FD482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		642834F327C3F1DA00492E8C /* Build configuration list for PBXNativeTarget "TasarimCalismasi" */ = {
+		6468161F27D3B386000FD482 /* Build configuration list for PBXNativeTarget "DetayliTableViewKullanimi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				642834F427C3F1DA00492E8C /* Debug */,
-				642834F527C3F1DA00492E8C /* Release */,
+				6468162027D3B386000FD482 /* Debug */,
+				6468162127D3B386000FD482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		642834F627C3F1DA00492E8C /* Build configuration list for PBXNativeTarget "TasarimCalismasiTests" */ = {
+		6468162227D3B386000FD482 /* Build configuration list for PBXNativeTarget "DetayliTableViewKullanimiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				642834F727C3F1DA00492E8C /* Debug */,
-				642834F827C3F1DA00492E8C /* Release */,
+				6468162327D3B386000FD482 /* Debug */,
+				6468162427D3B386000FD482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		642834F927C3F1DA00492E8C /* Build configuration list for PBXNativeTarget "TasarimCalismasiUITests" */ = {
+		6468162527D3B386000FD482 /* Build configuration list for PBXNativeTarget "DetayliTableViewKullanimiUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				642834FA27C3F1DA00492E8C /* Debug */,
-				642834FB27C3F1DA00492E8C /* Release */,
+				6468162627D3B386000FD482 /* Debug */,
+				6468162727D3B386000FD482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 642834C127C3F1D200492E8C /* Project object */;
+	rootObject = 646815ED27D3B37C000FD482 /* Project object */;
 }

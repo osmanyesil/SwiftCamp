@@ -1,0 +1,13 @@
+
+/* Class = "UILabel"; text = "Meat lover , get ready to meet your pizza !"; ObjectID = "MDT-Nz-F1N"; */
+"MDT-Nz-F1N.text" = "Et sever, pizzanla tanışmaya hazırlan !";
+
+/* Class = "UILabel"; text = "Beef Cheese"; ObjectID = "eBi-VO-Ebg"; */
+"eBi-VO-Ebg.text" = "Etli Peynirli";
+
+/* Class = "UIButton"; configuration.title = "ADD TO CHART"; ObjectID = "hwi-ng-N5T"; */
+"hwi-ng-N5T.configuration.title" = "Kart Ekle";
+
+
+/* Class = "UILabel"; text = "$ 5.98"; ObjectID = "zAt-5N-l22"; */
+"zAt-5N-l22.text" = "90 ₺";

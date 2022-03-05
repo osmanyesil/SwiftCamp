@@ -7,70 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		642834CD27C3F1D300492E8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642834CC27C3F1D300492E8C /* AppDelegate.swift */; };
-		642834CF27C3F1D300492E8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642834CE27C3F1D300492E8C /* SceneDelegate.swift */; };
-		642834D127C3F1D300492E8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642834D027C3F1D300492E8C /* ViewController.swift */; };
-		642834D427C3F1D300492E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642834D227C3F1D300492E8C /* Main.storyboard */; };
-		642834D627C3F1D900492E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642834D527C3F1D900492E8C /* Assets.xcassets */; };
-		642834D927C3F1D900492E8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 642834D727C3F1D900492E8C /* LaunchScreen.storyboard */; };
-		642834E427C3F1DA00492E8C /* TasarimCalismasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642834E327C3F1DA00492E8C /* TasarimCalismasiTests.swift */; };
-		642834EE27C3F1DA00492E8C /* TasarimCalismasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642834ED27C3F1DA00492E8C /* TasarimCalismasiUITests.swift */; };
-		642834F027C3F1DA00492E8C /* TasarimCalismasiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642834EF27C3F1DA00492E8C /* TasarimCalismasiUITestsLaunchTests.swift */; };
-		64FE9CBB27C40B250084DF52 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 642834FD27C4088500492E8C /* Pacifico-Regular.ttf */; };
+		64433D4427C68DAC0073DC50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64433D4327C68DAC0073DC50 /* AppDelegate.swift */; };
+		64433D4627C68DAC0073DC50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64433D4527C68DAC0073DC50 /* SceneDelegate.swift */; };
+		64433D4827C68DAC0073DC50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64433D4727C68DAC0073DC50 /* ViewController.swift */; };
+		64433D4B27C68DAC0073DC50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64433D4927C68DAC0073DC50 /* Main.storyboard */; };
+		64433D4D27C68DB10073DC50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64433D4C27C68DB10073DC50 /* Assets.xcassets */; };
+		64433D5027C68DB10073DC50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64433D4E27C68DB10073DC50 /* LaunchScreen.storyboard */; };
+		64433D5B27C68DB20073DC50 /* CalismaYapisiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64433D5A27C68DB20073DC50 /* CalismaYapisiTests.swift */; };
+		64433D6527C68DB20073DC50 /* CalismaYapisiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64433D6427C68DB20073DC50 /* CalismaYapisiUITests.swift */; };
+		64433D6727C68DB20073DC50 /* CalismaYapisiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64433D6627C68DB20073DC50 /* CalismaYapisiUITestsLaunchTests.swift */; };
+		64433D7627C6B0E30073DC50 /* OyunEkraniVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64433D7527C6B0E30073DC50 /* OyunEkraniVC.swift */; };
+		64433D7827C6B16F0073DC50 /* SonucEkraniVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64433D7727C6B16F0073DC50 /* SonucEkraniVC.swift */; };
+		64433DFD27CA9BE70073DC50 /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64433DFC27CA9BE60073DC50 /* Kisiler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		642834E027C3F1DA00492E8C /* PBXContainerItemProxy */ = {
+		64433D5727C68DB20073DC50 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 642834C127C3F1D200492E8C /* Project object */;
+			containerPortal = 64433D3827C68DAC0073DC50 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 642834C827C3F1D200492E8C;
-			remoteInfo = TasarimCalismasi;
+			remoteGlobalIDString = 64433D3F27C68DAC0073DC50;
+			remoteInfo = CalismaYapisi;
 		};
-		642834EA27C3F1DA00492E8C /* PBXContainerItemProxy */ = {
+		64433D6127C68DB20073DC50 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 642834C127C3F1D200492E8C /* Project object */;
+			containerPortal = 64433D3827C68DAC0073DC50 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 642834C827C3F1D200492E8C;
-			remoteInfo = TasarimCalismasi;
+			remoteGlobalIDString = 64433D3F27C68DAC0073DC50;
+			remoteInfo = CalismaYapisi;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		642834C927C3F1D200492E8C /* TasarimCalismasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasarimCalismasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		642834CC27C3F1D300492E8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		642834CE27C3F1D300492E8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		642834D027C3F1D300492E8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		642834D327C3F1D300492E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		642834D527C3F1D900492E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		642834D827C3F1D900492E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		642834DA27C3F1D900492E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		642834DF27C3F1DA00492E8C /* TasarimCalismasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasarimCalismasiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		642834E327C3F1DA00492E8C /* TasarimCalismasiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasarimCalismasiTests.swift; sourceTree = "<group>"; };
-		642834E927C3F1DA00492E8C /* TasarimCalismasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasarimCalismasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		642834ED27C3F1DA00492E8C /* TasarimCalismasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasarimCalismasiUITests.swift; sourceTree = "<group>"; };
-		642834EF27C3F1DA00492E8C /* TasarimCalismasiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasarimCalismasiUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		642834FD27C4088500492E8C /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
-		64433D7327C6A4DF0073DC50 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
-		64433D7427C6A4E00073DC50 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		64433D4027C68DAC0073DC50 /* CalismaYapisi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalismaYapisi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64433D4327C68DAC0073DC50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64433D4527C68DAC0073DC50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		64433D4727C68DAC0073DC50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64433D4A27C68DAC0073DC50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64433D4C27C68DB10073DC50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64433D4F27C68DB10073DC50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64433D5127C68DB10073DC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64433D5627C68DB20073DC50 /* CalismaYapisiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalismaYapisiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64433D5A27C68DB20073DC50 /* CalismaYapisiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalismaYapisiTests.swift; sourceTree = "<group>"; };
+		64433D6027C68DB20073DC50 /* CalismaYapisiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalismaYapisiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64433D6427C68DB20073DC50 /* CalismaYapisiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalismaYapisiUITests.swift; sourceTree = "<group>"; };
+		64433D6627C68DB20073DC50 /* CalismaYapisiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalismaYapisiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		64433D7527C6B0E30073DC50 /* OyunEkraniVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OyunEkraniVC.swift; sourceTree = "<group>"; };
+		64433D7727C6B16F0073DC50 /* SonucEkraniVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonucEkraniVC.swift; sourceTree = "<group>"; };
+		64433DFC27CA9BE60073DC50 /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		642834C627C3F1D200492E8C /* Frameworks */ = {
+		64433D3D27C68DAC0073DC50 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		642834DC27C3F1DA00492E8C /* Frameworks */ = {
+		64433D5327C68DB20073DC50 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		642834E627C3F1DA00492E8C /* Frameworks */ = {
+		64433D5D27C68DB20073DC50 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,186 +82,178 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		642834C027C3F1D200492E8C = {
+		64433D3727C68DAC0073DC50 = {
 			isa = PBXGroup;
 			children = (
-				642834CB27C3F1D200492E8C /* TasarimCalismasi */,
-				642834E227C3F1DA00492E8C /* TasarimCalismasiTests */,
-				642834EC27C3F1DA00492E8C /* TasarimCalismasiUITests */,
-				642834CA27C3F1D200492E8C /* Products */,
+				64433D4227C68DAC0073DC50 /* CalismaYapisi */,
+				64433D5927C68DB20073DC50 /* CalismaYapisiTests */,
+				64433D6327C68DB20073DC50 /* CalismaYapisiUITests */,
+				64433D4127C68DAC0073DC50 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		642834CA27C3F1D200492E8C /* Products */ = {
+		64433D4127C68DAC0073DC50 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				642834C927C3F1D200492E8C /* TasarimCalismasi.app */,
-				642834DF27C3F1DA00492E8C /* TasarimCalismasiTests.xctest */,
-				642834E927C3F1DA00492E8C /* TasarimCalismasiUITests.xctest */,
+				64433D4027C68DAC0073DC50 /* CalismaYapisi.app */,
+				64433D5627C68DB20073DC50 /* CalismaYapisiTests.xctest */,
+				64433D6027C68DB20073DC50 /* CalismaYapisiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		642834CB27C3F1D200492E8C /* TasarimCalismasi */ = {
+		64433D4227C68DAC0073DC50 /* CalismaYapisi */ = {
 			isa = PBXGroup;
 			children = (
-				642834CC27C3F1D300492E8C /* AppDelegate.swift */,
-				642834CE27C3F1D300492E8C /* SceneDelegate.swift */,
-				642834D027C3F1D300492E8C /* ViewController.swift */,
-				642834FC27C4081B00492E8C /* Fonts */,
-				642834D227C3F1D300492E8C /* Main.storyboard */,
-				642834D527C3F1D900492E8C /* Assets.xcassets */,
-				642834D727C3F1D900492E8C /* LaunchScreen.storyboard */,
-				642834DA27C3F1D900492E8C /* Info.plist */,
+				64433DFC27CA9BE60073DC50 /* Kisiler.swift */,
+				64433D4327C68DAC0073DC50 /* AppDelegate.swift */,
+				64433D4527C68DAC0073DC50 /* SceneDelegate.swift */,
+				64433D4727C68DAC0073DC50 /* ViewController.swift */,
+				64433D4927C68DAC0073DC50 /* Main.storyboard */,
+				64433D7727C6B16F0073DC50 /* SonucEkraniVC.swift */,
+				64433D7527C6B0E30073DC50 /* OyunEkraniVC.swift */,
+				64433D4C27C68DB10073DC50 /* Assets.xcassets */,
+				64433D4E27C68DB10073DC50 /* LaunchScreen.storyboard */,
+				64433D5127C68DB10073DC50 /* Info.plist */,
 			);
-			path = TasarimCalismasi;
+			path = CalismaYapisi;
 			sourceTree = "<group>";
 		};
-		642834E227C3F1DA00492E8C /* TasarimCalismasiTests */ = {
+		64433D5927C68DB20073DC50 /* CalismaYapisiTests */ = {
 			isa = PBXGroup;
 			children = (
-				642834E327C3F1DA00492E8C /* TasarimCalismasiTests.swift */,
+				64433D5A27C68DB20073DC50 /* CalismaYapisiTests.swift */,
 			);
-			path = TasarimCalismasiTests;
+			path = CalismaYapisiTests;
 			sourceTree = "<group>";
 		};
-		642834EC27C3F1DA00492E8C /* TasarimCalismasiUITests */ = {
+		64433D6327C68DB20073DC50 /* CalismaYapisiUITests */ = {
 			isa = PBXGroup;
 			children = (
-				642834ED27C3F1DA00492E8C /* TasarimCalismasiUITests.swift */,
-				642834EF27C3F1DA00492E8C /* TasarimCalismasiUITestsLaunchTests.swift */,
+				64433D6427C68DB20073DC50 /* CalismaYapisiUITests.swift */,
+				64433D6627C68DB20073DC50 /* CalismaYapisiUITestsLaunchTests.swift */,
 			);
-			path = TasarimCalismasiUITests;
-			sourceTree = "<group>";
-		};
-		642834FC27C4081B00492E8C /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				642834FD27C4088500492E8C /* Pacifico-Regular.ttf */,
-			);
-			path = Fonts;
+			path = CalismaYapisiUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		642834C827C3F1D200492E8C /* TasarimCalismasi */ = {
+		64433D3F27C68DAC0073DC50 /* CalismaYapisi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 642834F327C3F1DA00492E8C /* Build configuration list for PBXNativeTarget "TasarimCalismasi" */;
+			buildConfigurationList = 64433D6A27C68DB30073DC50 /* Build configuration list for PBXNativeTarget "CalismaYapisi" */;
 			buildPhases = (
-				642834C527C3F1D200492E8C /* Sources */,
-				642834C627C3F1D200492E8C /* Frameworks */,
-				642834C727C3F1D200492E8C /* Resources */,
+				64433D3C27C68DAC0073DC50 /* Sources */,
+				64433D3D27C68DAC0073DC50 /* Frameworks */,
+				64433D3E27C68DAC0073DC50 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TasarimCalismasi;
-			productName = TasarimCalismasi;
-			productReference = 642834C927C3F1D200492E8C /* TasarimCalismasi.app */;
+			name = CalismaYapisi;
+			productName = CalismaYapisi;
+			productReference = 64433D4027C68DAC0073DC50 /* CalismaYapisi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		642834DE27C3F1DA00492E8C /* TasarimCalismasiTests */ = {
+		64433D5527C68DB20073DC50 /* CalismaYapisiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 642834F627C3F1DA00492E8C /* Build configuration list for PBXNativeTarget "TasarimCalismasiTests" */;
+			buildConfigurationList = 64433D6D27C68DB30073DC50 /* Build configuration list for PBXNativeTarget "CalismaYapisiTests" */;
 			buildPhases = (
-				642834DB27C3F1DA00492E8C /* Sources */,
-				642834DC27C3F1DA00492E8C /* Frameworks */,
-				642834DD27C3F1DA00492E8C /* Resources */,
+				64433D5227C68DB20073DC50 /* Sources */,
+				64433D5327C68DB20073DC50 /* Frameworks */,
+				64433D5427C68DB20073DC50 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				642834E127C3F1DA00492E8C /* PBXTargetDependency */,
+				64433D5827C68DB20073DC50 /* PBXTargetDependency */,
 			);
-			name = TasarimCalismasiTests;
-			productName = TasarimCalismasiTests;
-			productReference = 642834DF27C3F1DA00492E8C /* TasarimCalismasiTests.xctest */;
+			name = CalismaYapisiTests;
+			productName = CalismaYapisiTests;
+			productReference = 64433D5627C68DB20073DC50 /* CalismaYapisiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		642834E827C3F1DA00492E8C /* TasarimCalismasiUITests */ = {
+		64433D5F27C68DB20073DC50 /* CalismaYapisiUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 642834F927C3F1DA00492E8C /* Build configuration list for PBXNativeTarget "TasarimCalismasiUITests" */;
+			buildConfigurationList = 64433D7027C68DB30073DC50 /* Build configuration list for PBXNativeTarget "CalismaYapisiUITests" */;
 			buildPhases = (
-				642834E527C3F1DA00492E8C /* Sources */,
-				642834E627C3F1DA00492E8C /* Frameworks */,
-				642834E727C3F1DA00492E8C /* Resources */,
+				64433D5C27C68DB20073DC50 /* Sources */,
+				64433D5D27C68DB20073DC50 /* Frameworks */,
+				64433D5E27C68DB20073DC50 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				642834EB27C3F1DA00492E8C /* PBXTargetDependency */,
+				64433D6227C68DB20073DC50 /* PBXTargetDependency */,
 			);
-			name = TasarimCalismasiUITests;
-			productName = TasarimCalismasiUITests;
-			productReference = 642834E927C3F1DA00492E8C /* TasarimCalismasiUITests.xctest */;
+			name = CalismaYapisiUITests;
+			productName = CalismaYapisiUITests;
+			productReference = 64433D6027C68DB20073DC50 /* CalismaYapisiUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		642834C127C3F1D200492E8C /* Project object */ = {
+		64433D3827C68DAC0073DC50 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					642834C827C3F1D200492E8C = {
+					64433D3F27C68DAC0073DC50 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					642834DE27C3F1DA00492E8C = {
+					64433D5527C68DB20073DC50 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 642834C827C3F1D200492E8C;
+						TestTargetID = 64433D3F27C68DAC0073DC50;
 					};
-					642834E827C3F1DA00492E8C = {
+					64433D5F27C68DB20073DC50 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 642834C827C3F1D200492E8C;
+						TestTargetID = 64433D3F27C68DAC0073DC50;
 					};
 				};
 			};
-			buildConfigurationList = 642834C427C3F1D200492E8C /* Build configuration list for PBXProject "TasarimCalismasi" */;
+			buildConfigurationList = 64433D3B27C68DAC0073DC50 /* Build configuration list for PBXProject "CalismaYapisi" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
-				tr,
 			);
-			mainGroup = 642834C027C3F1D200492E8C;
-			productRefGroup = 642834CA27C3F1D200492E8C /* Products */;
+			mainGroup = 64433D3727C68DAC0073DC50;
+			productRefGroup = 64433D4127C68DAC0073DC50 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				642834C827C3F1D200492E8C /* TasarimCalismasi */,
-				642834DE27C3F1DA00492E8C /* TasarimCalismasiTests */,
-				642834E827C3F1DA00492E8C /* TasarimCalismasiUITests */,
+				64433D3F27C68DAC0073DC50 /* CalismaYapisi */,
+				64433D5527C68DB20073DC50 /* CalismaYapisiTests */,
+				64433D5F27C68DB20073DC50 /* CalismaYapisiUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		642834C727C3F1D200492E8C /* Resources */ = {
+		64433D3E27C68DAC0073DC50 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				642834D927C3F1D900492E8C /* LaunchScreen.storyboard in Resources */,
-				64FE9CBB27C40B250084DF52 /* Pacifico-Regular.ttf in Resources */,
-				642834D627C3F1D900492E8C /* Assets.xcassets in Resources */,
-				642834D427C3F1D300492E8C /* Main.storyboard in Resources */,
+				64433D5027C68DB10073DC50 /* LaunchScreen.storyboard in Resources */,
+				64433D4D27C68DB10073DC50 /* Assets.xcassets in Resources */,
+				64433D4B27C68DAC0073DC50 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		642834DD27C3F1DA00492E8C /* Resources */ = {
+		64433D5427C68DB20073DC50 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		642834E727C3F1DA00492E8C /* Resources */ = {
+		64433D5E27C68DB20073DC50 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,63 +263,64 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		642834C527C3F1D200492E8C /* Sources */ = {
+		64433D3C27C68DAC0073DC50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				642834D127C3F1D300492E8C /* ViewController.swift in Sources */,
-				642834CD27C3F1D300492E8C /* AppDelegate.swift in Sources */,
-				642834CF27C3F1D300492E8C /* SceneDelegate.swift in Sources */,
+				64433D7827C6B16F0073DC50 /* SonucEkraniVC.swift in Sources */,
+				64433D4827C68DAC0073DC50 /* ViewController.swift in Sources */,
+				64433D4427C68DAC0073DC50 /* AppDelegate.swift in Sources */,
+				64433D4627C68DAC0073DC50 /* SceneDelegate.swift in Sources */,
+				64433D7627C6B0E30073DC50 /* OyunEkraniVC.swift in Sources */,
+				64433DFD27CA9BE70073DC50 /* Kisiler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		642834DB27C3F1DA00492E8C /* Sources */ = {
+		64433D5227C68DB20073DC50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				642834E427C3F1DA00492E8C /* TasarimCalismasiTests.swift in Sources */,
+				64433D5B27C68DB20073DC50 /* CalismaYapisiTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		642834E527C3F1DA00492E8C /* Sources */ = {
+		64433D5C27C68DB20073DC50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				642834EE27C3F1DA00492E8C /* TasarimCalismasiUITests.swift in Sources */,
-				642834F027C3F1DA00492E8C /* TasarimCalismasiUITestsLaunchTests.swift in Sources */,
+				64433D6727C68DB20073DC50 /* CalismaYapisiUITestsLaunchTests.swift in Sources */,
+				64433D6527C68DB20073DC50 /* CalismaYapisiUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		642834E127C3F1DA00492E8C /* PBXTargetDependency */ = {
+		64433D5827C68DB20073DC50 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 642834C827C3F1D200492E8C /* TasarimCalismasi */;
-			targetProxy = 642834E027C3F1DA00492E8C /* PBXContainerItemProxy */;
+			target = 64433D3F27C68DAC0073DC50 /* CalismaYapisi */;
+			targetProxy = 64433D5727C68DB20073DC50 /* PBXContainerItemProxy */;
 		};
-		642834EB27C3F1DA00492E8C /* PBXTargetDependency */ = {
+		64433D6227C68DB20073DC50 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 642834C827C3F1D200492E8C /* TasarimCalismasi */;
-			targetProxy = 642834EA27C3F1DA00492E8C /* PBXContainerItemProxy */;
+			target = 64433D3F27C68DAC0073DC50 /* CalismaYapisi */;
+			targetProxy = 64433D6127C68DB20073DC50 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		642834D227C3F1D300492E8C /* Main.storyboard */ = {
+		64433D4927C68DAC0073DC50 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				642834D327C3F1D300492E8C /* Base */,
-				64433D7327C6A4DF0073DC50 /* tr */,
+				64433D4A27C68DAC0073DC50 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		642834D727C3F1D900492E8C /* LaunchScreen.storyboard */ = {
+		64433D4E27C68DB10073DC50 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				642834D827C3F1D900492E8C /* Base */,
-				64433D7427C6A4E00073DC50 /* tr */,
+				64433D4F27C68DB10073DC50 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -333,11 +328,10 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		642834F127C3F1DA00492E8C /* Debug */ = {
+		64433D6827C68DB20073DC50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -395,11 +389,10 @@
 			};
 			name = Debug;
 		};
-		642834F227C3F1DA00492E8C /* Release */ = {
+		64433D6927C68DB20073DC50 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -451,7 +444,7 @@
 			};
 			name = Release;
 		};
-		642834F427C3F1DA00492E8C /* Debug */ = {
+		64433D6B27C68DB30073DC50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -460,7 +453,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3FG7TQNGBP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TasarimCalismasi/Info.plist;
+				INFOPLIST_FILE = CalismaYapisi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -471,7 +464,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.TasarimCalismasi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.CalismaYapisi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -479,7 +472,7 @@
 			};
 			name = Debug;
 		};
-		642834F527C3F1DA00492E8C /* Release */ = {
+		64433D6C27C68DB30073DC50 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -488,7 +481,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3FG7TQNGBP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TasarimCalismasi/Info.plist;
+				INFOPLIST_FILE = CalismaYapisi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -499,7 +492,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.TasarimCalismasi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.CalismaYapisi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -507,7 +500,7 @@
 			};
 			name = Release;
 		};
-		642834F727C3F1DA00492E8C /* Debug */ = {
+		64433D6E27C68DB30073DC50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -518,16 +511,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.TasarimCalismasiTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.CalismaYapisiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasarimCalismasi.app/TasarimCalismasi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalismaYapisi.app/CalismaYapisi";
 			};
 			name = Debug;
 		};
-		642834F827C3F1DA00492E8C /* Release */ = {
+		64433D6F27C68DB30073DC50 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -538,16 +531,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.TasarimCalismasiTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.CalismaYapisiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasarimCalismasi.app/TasarimCalismasi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalismaYapisi.app/CalismaYapisi";
 			};
 			name = Release;
 		};
-		642834FA27C3F1DA00492E8C /* Debug */ = {
+		64433D7127C68DB30073DC50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -556,16 +549,16 @@
 				DEVELOPMENT_TEAM = 3FG7TQNGBP;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.TasarimCalismasiUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.CalismaYapisiUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TasarimCalismasi;
+				TEST_TARGET_NAME = CalismaYapisi;
 			};
 			name = Debug;
 		};
-		642834FB27C3F1DA00492E8C /* Release */ = {
+		64433D7227C68DB30073DC50 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -574,55 +567,55 @@
 				DEVELOPMENT_TEAM = 3FG7TQNGBP;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.TasarimCalismasiUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osmanyesil.CalismaYapisiUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TasarimCalismasi;
+				TEST_TARGET_NAME = CalismaYapisi;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		642834C427C3F1D200492E8C /* Build configuration list for PBXProject "TasarimCalismasi" */ = {
+		64433D3B27C68DAC0073DC50 /* Build configuration list for PBXProject "CalismaYapisi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				642834F127C3F1DA00492E8C /* Debug */,
-				642834F227C3F1DA00492E8C /* Release */,
+				64433D6827C68DB20073DC50 /* Debug */,
+				64433D6927C68DB20073DC50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		642834F327C3F1DA00492E8C /* Build configuration list for PBXNativeTarget "TasarimCalismasi" */ = {
+		64433D6A27C68DB30073DC50 /* Build configuration list for PBXNativeTarget "CalismaYapisi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				642834F427C3F1DA00492E8C /* Debug */,
-				642834F527C3F1DA00492E8C /* Release */,
+				64433D6B27C68DB30073DC50 /* Debug */,
+				64433D6C27C68DB30073DC50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		642834F627C3F1DA00492E8C /* Build configuration list for PBXNativeTarget "TasarimCalismasiTests" */ = {
+		64433D6D27C68DB30073DC50 /* Build configuration list for PBXNativeTarget "CalismaYapisiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				642834F727C3F1DA00492E8C /* Debug */,
-				642834F827C3F1DA00492E8C /* Release */,
+				64433D6E27C68DB30073DC50 /* Debug */,
+				64433D6F27C68DB30073DC50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		642834F927C3F1DA00492E8C /* Build configuration list for PBXNativeTarget "TasarimCalismasiUITests" */ = {
+		64433D7027C68DB30073DC50 /* Build configuration list for PBXNativeTarget "CalismaYapisiUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				642834FA27C3F1DA00492E8C /* Debug */,
-				642834FB27C3F1DA00492E8C /* Release */,
+				64433D7127C68DB30073DC50 /* Debug */,
+				64433D7227C68DB30073DC50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 642834C127C3F1D200492E8C /* Project object */;
+	rootObject = 64433D3827C68DAC0073DC50 /* Project object */;
 }
