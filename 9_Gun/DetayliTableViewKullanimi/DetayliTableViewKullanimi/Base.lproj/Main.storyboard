@@ -1,24 +1,192 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VBa-Av-sxQ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Ürünler-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DetayliTableViewKullanimi" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="180" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Z2y-jY-lUi">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="urunHucre" id="4qy-9Y-Nrg" customClass="UrunTableViewCell" customModule="DetayliTableViewKullanimi" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="180"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4qy-9Y-Nrg" id="4Oc-5Y-y4U">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="180"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g3s-6X-p5S">
+                                                    <rect key="frame" x="28" y="19" width="358" height="142"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="telefon" translatesAutoresizingMaskIntoConstraints="NO" id="Lwk-ee-tFz">
+                                                            <rect key="frame" x="16" y="7" width="128" height="128"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="128" id="ODh-lo-ELQ"/>
+                                                                <constraint firstAttribute="height" constant="128" id="q12-eC-IAn"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="PEz-aG-9D8">
+                                                            <rect key="frame" x="175" y="20" width="112" height="115"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Iphone 13 Pro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NUq-rP-YxM">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="112" height="21.5"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13.999 ₺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3s-tD-4ch">
+                                                                    <rect key="frame" x="0.0" y="39.5" width="112" height="26.5"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T5M-ht-dlP">
+                                                                    <rect key="frame" x="0.0" y="84" width="112" height="31"/>
+                                                                    <state key="normal" title="Button"/>
+                                                                    <buttonConfiguration key="configuration" style="filled" title="SEPETE EKLE"/>
+                                                                    <connections>
+                                                                        <action selector="sepetEkleButton:" destination="4qy-9Y-Nrg" eventType="touchUpInside" id="PNI-yA-Y08"/>
+                                                                    </connections>
+                                                                </button>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstItem="Lwk-ee-tFz" firstAttribute="leading" secondItem="g3s-6X-p5S" secondAttribute="leading" constant="16" id="CFq-je-eON"/>
+                                                        <constraint firstItem="Lwk-ee-tFz" firstAttribute="centerY" secondItem="g3s-6X-p5S" secondAttribute="centerY" id="OC8-FE-xRh"/>
+                                                        <constraint firstItem="PEz-aG-9D8" firstAttribute="bottom" secondItem="Lwk-ee-tFz" secondAttribute="bottom" id="aAi-b2-Mn4"/>
+                                                        <constraint firstItem="PEz-aG-9D8" firstAttribute="leading" secondItem="Lwk-ee-tFz" secondAttribute="trailing" constant="31" id="fJ5-NQ-tD9"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="g3s-6X-p5S" secondAttribute="bottom" constant="8" id="JOp-sT-Hxl"/>
+                                                <constraint firstItem="g3s-6X-p5S" firstAttribute="leading" secondItem="4Oc-5Y-y4U" secondAttribute="leadingMargin" constant="8" id="KUQ-rG-thp"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="g3s-6X-p5S" secondAttribute="trailing" constant="8" id="NyY-Aa-SjC"/>
+                                                <constraint firstItem="g3s-6X-p5S" firstAttribute="top" secondItem="4Oc-5Y-y4U" secondAttribute="topMargin" constant="8" id="n59-cd-mvP"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="hucreArkaPlan" destination="g3s-6X-p5S" id="oKF-dc-UNM"/>
+                                            <outlet property="urunAdLabel" destination="NUq-rP-YxM" id="2gl-9t-GxS"/>
+                                            <outlet property="urunFiyatLabel" destination="m3s-tD-4ch" id="P5S-cq-9im"/>
+                                            <outlet property="urunResimImageView" destination="Lwk-ee-tFz" id="Xrf-gH-5Ya"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Z2y-jY-lUi" secondAttribute="bottom" id="K3g-Pn-K1J"/>
+                            <constraint firstItem="Z2y-jY-lUi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KLH-2w-Nr4"/>
+                            <constraint firstItem="Z2y-jY-lUi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="egX-bs-xBf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Z2y-jY-lUi" secondAttribute="trailing" id="pYP-bK-jPt"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Ürünler" id="pK3-Rm-Oic"/>
+                    <connections>
+                        <outlet property="urunlerTableView" destination="Z2y-jY-lUi" id="g8Q-Q7-ZZl"/>
+                        <segue destination="wIr-km-RMy" kind="show" identifier="toDetay" id="b5t-Vi-gpr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="128.57142857142856"/>
+        </scene>
+        <!--Ürün Detay Sayfası-->
+        <scene sceneID="4Vy-PZ-Ytx">
+            <objects>
+                <viewController id="wIr-km-RMy" customClass="DetayVC" customModule="DetayliTableViewKullanimi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gxE-JB-Top">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="telefon" translatesAutoresizingMaskIntoConstraints="NO" id="xqf-a3-fx6">
+                                <rect key="frame" x="79" y="172" width="256" height="256"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13.999 ₺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Q5-vF-Vmx">
+                                <rect key="frame" x="147" y="460" width="120.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ze9-Oq-x1f">
+                                <rect key="frame" x="32" y="787" width="350" height="43"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Sepete Ekle">
+                                            <attributes>
+                                                <font key="NSFont" size="25" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="sepeteEkleButton:" destination="wIr-km-RMy" eventType="touchUpInside" id="uY5-76-nOu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Yrx-Ue-j89"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3Q5-vF-Vmx" firstAttribute="centerX" secondItem="gxE-JB-Top" secondAttribute="centerX" id="2L2-BT-S9b"/>
+                            <constraint firstItem="Yrx-Ue-j89" firstAttribute="bottom" secondItem="Ze9-Oq-x1f" secondAttribute="bottom" constant="32" id="Mex-cb-Weo"/>
+                            <constraint firstItem="xqf-a3-fx6" firstAttribute="centerX" secondItem="gxE-JB-Top" secondAttribute="centerX" id="d2Z-Ch-n6h"/>
+                            <constraint firstItem="xqf-a3-fx6" firstAttribute="top" secondItem="Yrx-Ue-j89" secondAttribute="top" constant="32" id="enJ-75-h2b"/>
+                            <constraint firstItem="3Q5-vF-Vmx" firstAttribute="top" secondItem="xqf-a3-fx6" secondAttribute="bottom" constant="32" id="kRr-li-ZT9"/>
+                            <constraint firstItem="Yrx-Ue-j89" firstAttribute="trailing" secondItem="Ze9-Oq-x1f" secondAttribute="trailing" constant="32" id="ors-n1-IYp"/>
+                            <constraint firstItem="Ze9-Oq-x1f" firstAttribute="leading" secondItem="Yrx-Ue-j89" secondAttribute="leading" constant="32" id="t2C-wF-H9L"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Ürün Detay Sayfası" id="9Du-xZ-dWN"/>
+                    <connections>
+                        <outlet property="urunFiyat" destination="3Q5-vF-Vmx" id="1a0-zG-GgY"/>
+                        <outlet property="urunResim" destination="xqf-a3-fx6" id="wYi-ae-cmu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JVy-74-x5T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1872" y="129"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Hpa-Cj-eIC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VBa-Av-sxQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="I3I-uk-Hfb">
+                        <rect key="frame" x="0.0" y="44" width="414" height="104"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Izm-Rr-V1s"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wfb-NW-HHA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="128.57142857142856"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="telefon" width="256" height="256"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

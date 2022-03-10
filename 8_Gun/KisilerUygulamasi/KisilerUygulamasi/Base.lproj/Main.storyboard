@@ -16,14 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nnz-iB-5OS">
-                                <rect key="frame" x="173.5" y="432.5" width="67" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                <connections>
-                                    <action selector="buttonTikla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zNj-Z1-Pv7"/>
-                                </connections>
-                            </button>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="88J-6d-0WJ">
                                 <rect key="frame" x="0.0" y="148" width="414" height="44"/>
                                 <constraints>
@@ -31,15 +23,46 @@
                                 </constraints>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Ox0-3I-v60">
+                                <rect key="frame" x="0.0" y="192" width="414" height="670"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="kisilerHucre" id="Iql-k8-Uoj" customClass="TableViewHucre" customModule="KisilerUygulamasi" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Iql-k8-Uoj" id="s8H-Yh-pyg">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mb0-Pv-Gcl">
+                                                    <rect key="frame" x="177.5" y="35" width="59" height="30"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="mb0-Pv-Gcl" firstAttribute="centerX" secondItem="s8H-Yh-pyg" secondAttribute="centerX" id="fKF-od-q55"/>
+                                                <constraint firstItem="mb0-Pv-Gcl" firstAttribute="centerY" secondItem="s8H-Yh-pyg" secondAttribute="centerY" id="prz-Cj-eaT"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="kisiBilgiLabel" destination="mb0-Pv-Gcl" id="ppR-38-fGI"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Ox0-3I-v60" firstAttribute="top" secondItem="88J-6d-0WJ" secondAttribute="bottom" id="4uD-rp-cK4"/>
+                            <constraint firstItem="Ox0-3I-v60" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6hI-UP-ROP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="88J-6d-0WJ" secondAttribute="trailing" id="8lC-it-t3c"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ox0-3I-v60" secondAttribute="bottom" id="TEO-Fk-iQE"/>
                             <constraint firstItem="88J-6d-0WJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Txj-MF-mMM"/>
                             <constraint firstItem="88J-6d-0WJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gOk-DG-rCE"/>
-                            <constraint firstItem="Nnz-iB-5OS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iVa-nV-Or7"/>
-                            <constraint firstItem="Nnz-iB-5OS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="l6G-gE-5bX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ox0-3I-v60" secondAttribute="trailing" id="tDG-bz-jQy"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Kişiler" id="VCh-IS-tBF">
@@ -50,6 +73,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="kisilerTableView" destination="Ox0-3I-v60" id="c7c-UK-m4S"/>
                         <outlet property="searchBar" destination="88J-6d-0WJ" id="ynG-4c-Rgx"/>
                         <segue destination="6gy-Gj-cRL" kind="show" identifier="toDetay" id="Dk8-P9-qNu"/>
                     </connections>
@@ -102,7 +126,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Kişi Kayıt" id="FeD-Uc-WwV"/>
                     <connections>
-                        <outlet property="tfKisiAd" destination="hcD-Pf-nG8" id="024-Bt-DxI"/>
+                        <outlet property="tfKisiAd" destination="hcD-Pf-nG8" id="Jsq-YB-je7"/>
                         <outlet property="tfKisiTel" destination="VBM-ph-4v9" id="Cev-Go-ecE"/>
                     </connections>
                 </viewController>
@@ -168,7 +192,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RUQ-ru-7rF" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="gI6-hJ-TRm">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="104"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
